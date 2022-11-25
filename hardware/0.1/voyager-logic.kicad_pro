@@ -527,7 +527,19 @@
     ],
     [
       "5286cad2-2a6a-4921-931f-2983217525ad",
-      "USB C"
+      "USB C Connector"
+    ],
+    [
+      "1766326e-181a-491d-a0e4-e97d1588585c",
+      "Power"
+    ],
+    [
+      "95b5a924-9126-4392-8281-2448ce6a0235",
+      "Debug"
+    ],
+    [
+      "8ac79583-bc77-4b1e-8425-63e8dca8c0a8",
+      "FX3 USB and Misc"
     ]
   ],
   "text_variables": {}
