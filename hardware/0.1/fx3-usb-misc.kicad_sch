@@ -2085,7 +2085,7 @@
   (symbol (lib_id "Device:C") (at 182.88 101.6 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 745c6659-fa35-45cd-9c87-388cd5f82cea)
-    (property "Reference" "C306" (id 0) (at 186.69 100.33 90)
+    (property "Reference" "C306" (id 0) (at 189.23 100.33 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (id 1) (at 189.23 102.87 90)
