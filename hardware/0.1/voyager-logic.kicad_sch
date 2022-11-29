@@ -14,10 +14,10 @@
   (lib_symbols
   )
 
-  (bus_alias "SD" (members "SD_DAT[0..3]" "SD_CMD" "SD_CLK" "SD_DET"))
-  (bus_alias "HYPERRAM" (members "HR_nRST" "HR_nCS" "HR_CK_N" "HR_RWDS" "HR_DQ[0..7]" "HR_CK"))
-  (bus_alias "LED" (members "LED_[0..7]" "LED_R" "LED_G" "LED_B"))
   (bus_alias "USB" (members "USB_D-" "USB_D+" "USB_PU"))
+  (bus_alias "LED" (members "LED_[0..7]" "LED_R" "LED_G" "LED_B"))
+  (bus_alias "HYPERRAM" (members "HR_nRST" "HR_nCS" "HR_CK_N" "HR_RWDS" "HR_DQ[0..7]" "HR_CK"))
+  (bus_alias "SD" (members "SD_DAT[0..3]" "SD_CMD" "SD_CLK" "SD_DET"))
 
   (wire (pts (xy 120.65 49.53) (xy 139.7 49.53))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1427,13 +1427,13 @@
       (reference "U502") (unit 1) (value "SN74LVC245A") (footprint "josh-dfn-qfn:Texas_RGY0020A_VQFN-20_2.5x4.5mm_P0.5mm")
     )
     (path "/1766326e-181a-491d-a0e4-e97d1588585c/f2d236cb-2371-4fc7-8e9d-f6c1a59d3203"
-      (reference "U701") (unit 1) (value "TLV62569DRLR") (footprint "Package_TO_SOT_SMD:SOT-563")
+      (reference "U701") (unit 1) (value "TLV62569DRLR") (footprint "josh-soic-sot-etc:SOT-563")
     )
     (path "/1766326e-181a-491d-a0e4-e97d1588585c/f9e3921a-2a29-4fef-a34c-8913f7894831"
-      (reference "U703") (unit 1) (value "TLV62569DRLR") (footprint "Package_TO_SOT_SMD:SOT-563")
+      (reference "U703") (unit 1) (value "TLV62569DRLR") (footprint "josh-soic-sot-etc:SOT-563")
     )
     (path "/1766326e-181a-491d-a0e4-e97d1588585c/e51e8581-7621-44fb-bb46-3d98c452b9af"
-      (reference "U704") (unit 1) (value "TLV62569DRLR") (footprint "Package_TO_SOT_SMD:SOT-563")
+      (reference "U704") (unit 1) (value "TLV62569DRLR") (footprint "josh-soic-sot-etc:SOT-563")
     )
     (path "/8ac79583-bc77-4b1e-8425-63e8dca8c0a8/8f0676e5-4b26-4ae5-b021-2314eb2994f4"
       (reference "Y301") (unit 1) (value "19.2MHz") (footprint "josh-oscillators:Crystal_SMD_2520-4Pin_2.5x2.0mm")
