@@ -14,10 +14,10 @@
   (lib_symbols
   )
 
-  (bus_alias "USB" (members "USB_D-" "USB_D+" "USB_PU"))
-  (bus_alias "LED" (members "LED_[0..7]" "LED_R" "LED_G" "LED_B"))
-  (bus_alias "HYPERRAM" (members "HR_nRST" "HR_nCS" "HR_CK_N" "HR_RWDS" "HR_DQ[0..7]" "HR_CK"))
   (bus_alias "SD" (members "SD_DAT[0..3]" "SD_CMD" "SD_CLK" "SD_DET"))
+  (bus_alias "HYPERRAM" (members "HR_nRST" "HR_nCS" "HR_CK_N" "HR_RWDS" "HR_DQ[0..7]" "HR_CK"))
+  (bus_alias "LED" (members "LED_[0..7]" "LED_R" "LED_G" "LED_B"))
+  (bus_alias "USB" (members "USB_D-" "USB_D+" "USB_PU"))
 
   (wire (pts (xy 120.65 49.53) (xy 139.7 49.53))
     (stroke (width 0) (type default) (color 0 0 0 0))

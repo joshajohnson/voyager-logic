@@ -1152,10 +1152,10 @@
     (pin "1" (uuid 904b9afe-db2c-4557-895c-5f0069e8360f))
   )
 
-  (symbol (lib_id "Connector:Conn_01x03_Male") (at 154.94 93.345 0) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x03_Male") (at 154.94 93.345 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8eeba95f-01f7-4b48-9f3a-637591480f87)
-    (property "Reference" "J401" (id 0) (at 155.575 85.09 0))
+    (property "Reference" "J401" (id 0) (at 156.845 85.725 0))
     (property "Value" "UART" (id 1) (at 156.845 87.63 0))
     (property "Footprint" "josh-connectors:3_PIN_THT_Staggered" (id 2) (at 154.94 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
