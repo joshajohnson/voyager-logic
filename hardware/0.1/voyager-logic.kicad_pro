@@ -531,7 +531,9 @@
           "/USB C Connector/TX2+",
           "/USB C Connector/TX2-",
           "/USB C Connector/TX2N",
-          "/USB C Connector/TX2P"
+          "/USB C Connector/TX2P",
+          "/USB C Connector/USBD+",
+          "/USB C Connector/USBD-"
         ],
         "pcb_color": "rgb(255, 255, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

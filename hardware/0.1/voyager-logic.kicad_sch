@@ -14,10 +14,10 @@
   (lib_symbols
   )
 
-  (bus_alias "SD" (members "SD_DAT[0..3]" "SD_CMD" "SD_CLK" "SD_DET"))
-  (bus_alias "HYPERRAM" (members "HR_nRST" "HR_nCS" "HR_CK_N" "HR_RWDS" "HR_DQ[0..7]" "HR_CK"))
-  (bus_alias "LED" (members "LED_[0..7]" "LED_R" "LED_G" "LED_B"))
   (bus_alias "USB" (members "USB_D-" "USB_D+" "USB_PU"))
+  (bus_alias "LED" (members "LED_[0..7]" "LED_R" "LED_G" "LED_B"))
+  (bus_alias "HYPERRAM" (members "HR_nRST" "HR_nCS" "HR_CK_N" "HR_RWDS" "HR_DQ[0..7]" "HR_CK"))
+  (bus_alias "SD" (members "SD_DAT[0..3]" "SD_CMD" "SD_CLK" "SD_DET"))
 
   (wire (pts (xy 120.65 49.53) (xy 139.7 49.53))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -535,6 +535,30 @@
     (path "/34108571-8a13-4907-805c-2f365e2118d7/894625ee-ab22-4331-96b7-7b5ed614c6ee"
       (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
     )
+    (path "/5286cad2-2a6a-4921-931f-2983217525ad/99765aac-6d08-4918-ba5f-e562ae119417"
+      (reference "#PWR0116") (unit 1) (value "VBUS") (footprint "")
+    )
+    (path "/5286cad2-2a6a-4921-931f-2983217525ad/d810f38a-4935-466d-b304-b0bdca06034d"
+      (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5286cad2-2a6a-4921-931f-2983217525ad/a37e2d25-5f61-431b-a38c-52239dfd7d2a"
+      (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5286cad2-2a6a-4921-931f-2983217525ad/44236299-88ff-4f0d-99d8-b23c5cca797d"
+      (reference "#PWR0119") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5286cad2-2a6a-4921-931f-2983217525ad/3d4d242f-3de2-4870-a159-6299237253c6"
+      (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5286cad2-2a6a-4921-931f-2983217525ad/9957b1b4-d8e7-4e2d-b663-efe0d4f95eb6"
+      (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5286cad2-2a6a-4921-931f-2983217525ad/dc929a61-fcce-4eec-9fbd-761021ff21bc"
+      (reference "#PWR0122") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5286cad2-2a6a-4921-931f-2983217525ad/00af3e45-970c-416e-84ae-89ab7ea2b15b"
+      (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
+    )
     (path "/5286cad2-2a6a-4921-931f-2983217525ad/254e0716-875b-410b-a239-ce020285111d"
       (reference "#PWR0201") (unit 1) (value "+5V") (footprint "")
     )
@@ -558,9 +582,6 @@
     )
     (path "/5286cad2-2a6a-4921-931f-2983217525ad/b23357f6-61dc-4e3d-81a8-803f4afdca62"
       (reference "#PWR0208") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/5286cad2-2a6a-4921-931f-2983217525ad/79518c0c-085d-499a-a597-f12de7a55a95"
-      (reference "#PWR0211") (unit 1) (value "GND") (footprint "")
     )
     (path "/5286cad2-2a6a-4921-931f-2983217525ad/5d35e7de-0638-43d6-ba77-7097ceed6869"
       (reference "#PWR0212") (unit 1) (value "+3V3") (footprint "")
@@ -1069,6 +1090,12 @@
     (path "/5286cad2-2a6a-4921-931f-2983217525ad/024bbe0e-3dfc-4418-a74a-e7f19c53627f"
       (reference "D201") (unit 1) (value "SMF9.0CA") (footprint "josh-passives-smt:D_SOD-123FL")
     )
+    (path "/5286cad2-2a6a-4921-931f-2983217525ad/0ed85411-3488-4e32-889a-5dee8ca69ddf"
+      (reference "D203") (unit 1) (value "DESD5V0U1BL") (footprint "josh-passives-smt:D_X1-DFN1006-2")
+    )
+    (path "/5286cad2-2a6a-4921-931f-2983217525ad/c990a872-1124-4d33-b92b-31f39af9b71d"
+      (reference "D204") (unit 1) (value "DESD5V0U1BL") (footprint "josh-passives-smt:D_X1-DFN1006-2")
+    )
     (path "/95b5a924-9126-4392-8281-2448ce6a0235/0da573dd-1ecb-47d7-a1d2-6a70ea264ca9"
       (reference "D402") (unit 1) (value "LED_RGBA") (footprint "josh-led:LED_TRI_2020")
     )
@@ -1156,11 +1183,11 @@
     (path "/5286cad2-2a6a-4921-931f-2983217525ad/5ecd0647-d4c6-422e-a437-4b90864d7a16"
       (reference "J201") (unit 1) (value "USB_C_Receptacle") (footprint "josh-connectors:USB_C_Receptacle_Amphenol_10137062-00021LF")
     )
-    (path "/95b5a924-9126-4392-8281-2448ce6a0235/a9228ab6-57d2-4919-9f82-8e860900cbb8"
-      (reference "J401") (unit 1) (value "JTAG") (footprint "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
+    (path "/95b5a924-9126-4392-8281-2448ce6a0235/8eeba95f-01f7-4b48-9f3a-637591480f87"
+      (reference "J401") (unit 1) (value "UART") (footprint "josh-connectors:3_PIN_THT_Staggered")
     )
     (path "/95b5a924-9126-4392-8281-2448ce6a0235/34e6940f-7938-4231-9263-3b2e59cb0d20"
-      (reference "J402") (unit 1) (value "JTAG") (footprint "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
+      (reference "J402") (unit 1) (value "JTAG") (footprint "josh-connectors:6_PIN_THT_Staggered")
     )
     (path "/9b704eb0-2000-499b-9073-d0a2372ef305/460bb5ad-f675-40e5-890a-071d9d7245a7"
       (reference "J501") (unit 1) (value "Probe") (footprint "josh-connectors:PinSocket_2x16_P1.27mm_Horizontal")
@@ -1336,23 +1363,8 @@
     (path "/5286cad2-2a6a-4921-931f-2983217525ad/df0b6517-3b47-4240-a038-de0dd9a0779f"
       (reference "TP202") (unit 1) (value "TP") (footprint "josh-test-point:TestPoint_SMDPad_D0.5mm_NO_SILK")
     )
-    (path "/1766326e-181a-491d-a0e4-e97d1588585c/bac15abc-3c07-499f-8bd7-71ac9cec9492"
-      (reference "TP701") (unit 1) (value "TP") (footprint "josh-test-point:TestPoint_SMDPad_D0.5mm_NO_SILK")
-    )
-    (path "/1766326e-181a-491d-a0e4-e97d1588585c/1d5fc45c-03d8-401b-ac0e-2acd2ede3f0e"
-      (reference "TP702") (unit 1) (value "TP") (footprint "josh-test-point:TestPoint_SMDPad_D0.5mm_NO_SILK")
-    )
-    (path "/1766326e-181a-491d-a0e4-e97d1588585c/be923ebd-7261-4249-8001-e92c7b62e445"
-      (reference "TP703") (unit 1) (value "TP") (footprint "josh-test-point:S1751-46_smdTestPoint")
-    )
-    (path "/1766326e-181a-491d-a0e4-e97d1588585c/bdda1cff-db42-4b68-bd5c-a066f379a18d"
-      (reference "TP704") (unit 1) (value "TP") (footprint "josh-test-point:TestPoint_SMDPad_D0.5mm_NO_SILK")
-    )
-    (path "/1766326e-181a-491d-a0e4-e97d1588585c/a9e0bff1-8af4-42f9-b973-200fb75f2536"
-      (reference "TP705") (unit 1) (value "TP") (footprint "josh-test-point:TestPoint_SMDPad_D0.5mm_NO_SILK")
-    )
-    (path "/5286cad2-2a6a-4921-931f-2983217525ad/84aa5579-8d7c-46ea-ad08-70a52776ae11"
-      (reference "U201") (unit 1) (value "TPD4EUSB30") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
+    (path "/5286cad2-2a6a-4921-931f-2983217525ad/9442ebc6-21dd-41ed-ae3b-af224bba4826"
+      (reference "U201") (unit 1) (value "USBLC6-2SC6") (footprint "josh-soic-sot-etc:SOT-563")
     )
     (path "/5286cad2-2a6a-4921-931f-2983217525ad/c385d30d-e287-4a24-92a8-ded07943f81b"
       (reference "U202") (unit 1) (value "HD3SS3220") (footprint "josh-dfn-qfn:Texas_RNH0030A_WQFN-30_2.5x4.5mm_P0.4mm")
