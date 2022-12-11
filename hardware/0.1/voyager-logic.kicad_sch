@@ -14,10 +14,10 @@
   (lib_symbols
   )
 
-  (bus_alias "SD" (members "SD_DAT[0..3]" "SD_CMD" "SD_CLK" "SD_DET"))
-  (bus_alias "HYPERRAM" (members "HR_nRST" "HR_nCS" "HR_CK_N" "HR_RWDS" "HR_DQ[0..7]" "HR_CK"))
-  (bus_alias "LED" (members "LED_[0..7]" "LED_R" "LED_G" "LED_B"))
   (bus_alias "USB" (members "USB_D-" "USB_D+" "USB_PU"))
+  (bus_alias "LED" (members "LED_[0..7]" "LED_R" "LED_G" "LED_B"))
+  (bus_alias "HYPERRAM" (members "HR_nRST" "HR_nCS" "HR_CK_N" "HR_RWDS" "HR_DQ[0..7]" "HR_CK"))
+  (bus_alias "SD" (members "SD_DAT[0..3]" "SD_CMD" "SD_CLK" "SD_DET"))
 
   (wire (pts (xy 120.65 49.53) (xy 139.7 49.53))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1256,7 +1256,7 @@
       (reference "R408") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/95b5a924-9126-4392-8281-2448ce6a0235/9ebfc9ea-d7dc-41b4-a46e-a392f40a33b4"
-      (reference "R409") (unit 1) (value "0R0") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R409") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/9b704eb0-2000-499b-9073-d0a2372ef305/e13ea56f-6694-422d-b698-9c872b1fe06d"
       (reference "R501") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -1364,7 +1364,7 @@
       (reference "TP202") (unit 1) (value "TP") (footprint "josh-test-point:TestPoint_SMDPad_D0.5mm_NO_SILK")
     )
     (path "/5286cad2-2a6a-4921-931f-2983217525ad/9442ebc6-21dd-41ed-ae3b-af224bba4826"
-      (reference "U201") (unit 1) (value "USBLC6-2SC6") (footprint "josh-soic-sot-etc:SOT-563")
+      (reference "U201") (unit 1) (value "USBLC6-2P6") (footprint "josh-soic-sot-etc:SOT-563")
     )
     (path "/5286cad2-2a6a-4921-931f-2983217525ad/c385d30d-e287-4a24-92a8-ded07943f81b"
       (reference "U202") (unit 1) (value "HD3SS3220") (footprint "josh-dfn-qfn:Texas_RNH0030A_WQFN-30_2.5x4.5mm_P0.4mm")

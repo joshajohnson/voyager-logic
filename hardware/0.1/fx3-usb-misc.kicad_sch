@@ -1903,7 +1903,7 @@
     (property "Datasheet" "~" (id 3) (at 43.815 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "Yageo" (id 4) (at 43.815 161.29 0)
+    (property "Manufacturer" "" (id 4) (at 43.815 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 79d3306a-9bf0-4f8b-a553-f6208b010467))
