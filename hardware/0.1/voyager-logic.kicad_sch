@@ -1189,8 +1189,11 @@
     (path "/95b5a924-9126-4392-8281-2448ce6a0235/34e6940f-7938-4231-9263-3b2e59cb0d20"
       (reference "J402") (unit 1) (value "JTAG") (footprint "josh-connectors:6_PIN_THT_Staggered")
     )
-    (path "/9b704eb0-2000-499b-9073-d0a2372ef305/460bb5ad-f675-40e5-890a-071d9d7245a7"
-      (reference "J501") (unit 1) (value "Probe") (footprint "josh-connectors:PinSocket_2x16_P1.27mm_Horizontal")
+    (path "/9b704eb0-2000-499b-9073-d0a2372ef305/1a05bba2-3a43-47aa-a720-256945b967c8"
+      (reference "J501") (unit 1) (value "Probe") (footprint "josh-connectors:PinSocket_2x08_P1.27mm_Horizontal")
+    )
+    (path "/9b704eb0-2000-499b-9073-d0a2372ef305/ed0adea6-958e-43a3-b58f-6cc7bc018a8b"
+      (reference "J502") (unit 1) (value "Probe") (footprint "josh-connectors:PinSocket_2x08_P1.27mm_Horizontal")
     )
     (path "/1766326e-181a-491d-a0e4-e97d1588585c/dc626a34-ba3a-4cd7-b9a9-0ae30c5efb5d"
       (reference "L701") (unit 1) (value "2u2") (footprint "Inductor_SMD:L_0805_2012Metric")
@@ -1403,10 +1406,10 @@
       (reference "U302") (unit 1) (value "M24M02") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/9b704eb0-2000-499b-9073-d0a2372ef305/0c8ff8f7-acd2-4211-8d75-7abb6998c326"
-      (reference "U501") (unit 1) (value "SN74LVC245A") (footprint "josh-dfn-qfn:Texas_RGY0020A_VQFN-20_2.5x4.5mm_P0.5mm")
+      (reference "U501") (unit 1) (value "SN74LVC245A") (footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm")
     )
     (path "/9b704eb0-2000-499b-9073-d0a2372ef305/ee7eb3ab-935f-4f95-a3d6-cc99229f05eb"
-      (reference "U502") (unit 1) (value "SN74LVC245A") (footprint "josh-dfn-qfn:Texas_RGY0020A_VQFN-20_2.5x4.5mm_P0.5mm")
+      (reference "U502") (unit 1) (value "SN74LVC245A") (footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm")
     )
     (path "/1766326e-181a-491d-a0e4-e97d1588585c/f2d236cb-2371-4fc7-8e9d-f6c1a59d3203"
       (reference "U701") (unit 1) (value "TLV62569DRLR") (footprint "josh-soic-sot-etc:SOT-563")

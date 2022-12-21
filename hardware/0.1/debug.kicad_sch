@@ -1182,7 +1182,7 @@
     (property "LCSC" "C106231" (id 4) (at 134.62 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C106231" (id 5) (at 134.62 90.17 0)
+    (property "MPN" "RC0402FR-070RL" (id 5) (at 134.62 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "C106231" (id 6) (at 134.62 90.17 0)
