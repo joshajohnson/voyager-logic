@@ -45,7 +45,7 @@
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -520,18 +520,10 @@
           "/FX3 USB and Misc/USB3_TX_P",
           "/USB C Connector/CC1",
           "/USB C Connector/CC2",
-          "/USB C Connector/RX1N",
-          "/USB C Connector/RX1P",
-          "/USB C Connector/RX2N",
-          "/USB C Connector/RX2P",
           "/USB C Connector/TX1+",
           "/USB C Connector/TX1-",
-          "/USB C Connector/TX1N",
-          "/USB C Connector/TX1P",
           "/USB C Connector/TX2+",
           "/USB C Connector/TX2-",
-          "/USB C Connector/TX2N",
-          "/USB C Connector/TX2P",
           "/USB C Connector/USBD+",
           "/USB C Connector/USBD-"
         ],
